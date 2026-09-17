@@ -1,85 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Minimal Blog</title>
+  <title>My Website</title>
   <style>
-    :root {
-      --bg: #ffffff;
-      --text: #111111;
-      --muted: #666666;
-      --border: #e0e0e0;
-      --accent: #0055ff;
-    }
-    @media (prefers-color-scheme: dark) {
-      :root {
-        --bg: #121212;
-        --text: #e0e0e0;
-        --muted: #999999;
-        --border: #2a2a2a;
-        --accent: #4d88ff;
-      }
-    }
     body {
-      max-width: 650px;
-      margin: 4rem auto;
-      padding: 0 1rem;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      line-height: 1.6;
-      background: var(--bg);
-      color: var(--text);
-    }
-    header {
-      margin-bottom: 3rem;
-      border-bottom: 1px solid var(--border);
-      padding-bottom: 1.5rem;
-    }
-    h1, h2, h3 { line-height: 1.2; margin-top: 2rem; }
-    h1 { margin-top: 0; }
-    a { color: var(--accent); text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    time { font-size: 0.85rem; color: var(--muted); }
-    article { margin-bottom: 3rem; }
-    footer {
-      margin-top: 4rem;
-      padding-top: 1.5rem;
-      border-top: 1px solid var(--border);
-      font-size: 0.85rem;
-      color: var(--muted);
+      background-color: #c0c0c0;
+      font-family: "Times New Roman", Times, serif;
+      margin: 20px;
     }
   </style>
 </head>
 <body>
 
-  <header>
-    <h1>My Personal Site</h1>
-    <p>Notes, articles, and raw HTML experiments.</p>
-  </header>
+  <center>
+    <h1>WELCOME TO MY WEBPAGE</h1>
+    <p><i>Under Construction since 2026</i></p>
+    <hr>
+  </center>
 
-  <main>
-    <article>
-      <h2><a href="#">Building Without Frameworks</a></h2>
-      <time datetime="2026-09-17">September 17, 2026</time>
-      <p>
-        Writing plain HTML and CSS keeps load times instant, eliminates build step 
-        failures, and guarantees backward compatibility for decades.
-      </p>
-    </article>
+  <h2>Navigation</h2>
+  <ul>
+    <li><a href="#about">About Me</a></li>
+    <li><a href="#rants">Rants</a></li>
+    <li><a href="#links">Cool Links</a></li>
+  </ul>
 
-    <article>
-      <h2><a href="#">Minimalism in Systems</a></h2>
-      <time datetime="2026-09-10">September 10, 2026</time>
-      <p>
-        Complexity must be justified by equivalent value. When static text serves 
-        the purpose, dynamic runtime abstractions introduce unnecessary overhead.
-      </p>
-    </article>
-  </main>
+  <hr>
 
-  <footer>
-    <p>&copy; 2026. Handcrafted with semantic HTML &amp; CSS.</p>
-  </footer>
+  <h2 id="about">About Me</h2>
+  <p>I hate modern websites. JavaScript is bloat. CSS frameworks are bloat. This entire site is raw markup and one line of CSS.</p>
+
+  <h2 id="rants">Latest Post: Why everything sucks</h2>
+  <p><small>Posted: Sep 17, 2026</small></p>
+  <p>Every website takes 15 megabytes to display 200 words of plain text. The modern web is a tragedy of NPM packages and tracking cookies.</p>
+
+  <h2 id="links">Cool Links</h2>
+  <ul>
+    <li><a href="https://motherfuckingwebsite.com/">Motherfucking Website</a></li>
+    <li><a href="https://text.npr.org/">NPR Text Only</a></li>
+  </ul>
+
+  <hr>
+  <center>
+    <p><small>Best viewed in Netscape Navigator at 800x600 resolution.</small></p>
+  </center>
 
 </body>
 </html>
