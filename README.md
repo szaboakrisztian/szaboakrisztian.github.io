@@ -11,12 +11,6 @@
 </head>
 <body>
 
-  <center>
-    <h1>WELCOME TO MY WEBPAGE</h1>
-    <p><i>Under Construction since 2026</i></p>
-    <hr>
-  </center>
-
   <h2>Navigation</h2>
   <ul>
     <li><a href="#about">About Me</a></li>
