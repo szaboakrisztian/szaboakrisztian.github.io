@@ -28,7 +28,7 @@
   <hr>
 
   <h2 id="about">About Me</h2>
-  <p>I hate modern websites. JavaScript is bloat. CSS frameworks are bloat. This entire site is raw markup and one line of CSS.</p>
+  <p>doing some physics stuff i guess</p>
 
   <h2 id="rants">Latest Post: Why everything sucks</h2>
   <p><small>Posted: Sep 17, 2026</small></p>
